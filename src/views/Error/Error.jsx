@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
 
-export default class Cart extends Component {
+export default class Error extends Component {
     render() {
         return (
             <div>
-              Cart  
+                404----页面找不到
             </div>
         )
     }

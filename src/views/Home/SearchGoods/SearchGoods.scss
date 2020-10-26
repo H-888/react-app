@@ -1,0 +1,48 @@
+.search-content {
+    width: 100%;
+    display: flex;
+    background-color: #efeff4;
+    z-index:999;
+    position: fixed;
+    top:0;
+    left: 50%;
+    right: 0;
+    transform: translateX(-50%);
+    margin-bottom: .4rem;
+}
+
+.ellipsis-1 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.good {
+    width: 49.5%;
+    border-radius: .533333rem;
+    padding: .266667rem;
+    margin-top: .16rem;
+    background-color: #fff;
+
+    .good_content {
+        img {
+            margin: 0 auto;
+            width: 70%;
+            display: block;
+        }
+
+        .describe {
+            padding: .266667rem .133333rem;
+            font-size: .346667rem;
+            color: #333;
+        }
+
+        .price {
+            font-size: .373333rem;
+            color: red;
+
+            span {
+                font-size: .266667rem;
+            }
+        }
+    }
+}

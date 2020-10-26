@@ -1,0 +1,47 @@
+.good {
+    width: 49.5%;
+    border-radius: .533333rem;
+    padding: .266667rem;
+    margin-top: .16rem;
+    background-color: #fff;
+
+    .good_content {
+        
+        img {
+            
+            width: 60%;
+            height: 80px;
+            margin: 0 auto;
+            display: block;
+        }
+
+        .describe {
+            font-size: .346667rem;
+            color: #333;
+            padding: .266667rem .133333rem;
+        }
+
+        .price {
+            font-size: .346667rem;
+            color: red;
+        }
+    }
+
+    .search-similar {
+        border: 1px solid rgb(16, 142, 233);
+
+        display: block;
+        margin: 10px auto;
+        background-color: #fff;
+        padding: 5px 10px;
+        border-radius: 5px;
+        font-size: .373333rem;
+        color: rgb(16, 142, 233);
+    }
+
+}
+.ellipsis-1 {
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    white-space: nowrap;
+}
